@@ -1,0 +1,55 @@
+/* For bigger screens size */
+@media only screen and (min-width: 768px) {
+  .navbar-brand {
+    margin-left: 50px !important;
+    padding-bottom: 100px;
+  }
+
+  .menu-link {
+    padding-top: 20px;
+    /* padding-bottom: 25px; */
+    padding-right: 10px;
+  }
+  .menu-link-last {
+    padding-right: 50px;
+  }
+
+  .btn-primary {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white;
+    background: #566b8f;
+    margin: 9.27px 2.1px;
+    padding: 12px 18px;
+  }
+}
+
+/* For smaller size screen */
+@media only screen and (max-width: 768px) {
+  .menu-link {
+    padding-left: 40px;
+  }
+  .btn-primary {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white;
+    background: #566b8f;
+    margin: 9.27px 2.1px;
+    padding: 10px 16px;
+    border-radius: 0%;
+  }
+
+  .navbar-header {
+    /* padding-bottom: 70px; */
+    padding-left: 20px;
+  }
+  .navbar-toggle {
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+}
+
+.navbar-toggle {
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
